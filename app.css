@@ -1,0 +1,38 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+				flex-wrap: wrap;
+				align-items: center;
+				justify-content: center;
+				align-content: center;
+}
+.circle
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+h1{
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-left:auto ;
+    margin-right: auto;
+    z-index: +2;
+}
+.coordinate
+{
+    height: 40px;
+    width: 80px;
+    background-color: black;
+   text-align: center;
+   padding-top: 17px;
+    position: absolute;
+    z-index: +3;
+}
